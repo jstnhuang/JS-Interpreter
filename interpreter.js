@@ -23,6 +23,8 @@
  */
 'use strict';
 
+const acorn = require('./acorn.js')
+
 /**
  * Create a new interpreter.
  * @param {string|!Object} code Raw JavaScript text or AST.
